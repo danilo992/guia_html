@@ -1,1 +1,4 @@
-# guia_html
+# Curso Rocketseat HTML5 
+
+- [x] abertura
+- [] abertura
