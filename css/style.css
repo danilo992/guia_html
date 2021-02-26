@@ -1,0 +1,12 @@
+img {
+    width: 200px;
+    height: 100px
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    margin: 20px;
+}
