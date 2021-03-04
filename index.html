@@ -9,45 +9,50 @@
 </head>
 <body>
     <header class="container">
-        <img src="img/itau.jpg" alt="itau" title="Itau">
+
+        <figure>
+            <img src="img/itau.jpg" alt="itau" title="Itau">
+            <figcaption>Itaú</figcaption>
+        </figure>
+        
         <h1  tabindex="1">Banco Itaú | Tudo pra você</h1>
+
     </header>
-            <p>
-                preencha o formulário bancario
-            </p>
-                <form>
-                    <label>Seu nome</label>
-                    <input type="text">
-                    <label>Contato</label>
-                    <input type="number">
-                    <button>Salvar</button>
-                </from>
-            <div class="container" contenteditable="true">
-                <p>saldo poupança</p>
-            </div>
-        <div hidden>
-            <!--o hidden deixa invisivel para o site-->
-            <p>saldo poupança</p>
-        </div>
-   
-    <mani>
-        <section>
-            <ul>
-                <li>home</li>
-                <li>contato</li>
-                <li>rede sociais</li>
-                <li>ajuda</li>
-            </ul>
+    <main class="main">
+        <section class="sectionForm">
+                    <form name="formItau" class="form">
+
+                        <fieldset>
+                            <legend>Formuláio</legend>
+
+                            <label>Nome:</label>
+                            <input type="text" id="nameId" placeholder="Nome Completo" required="required" name="nome">
+                            
+                            <label>Contato:</label>
+                            <input type="tel" id="telId" placeholder="(xx) x xxxx-xxxx" required="required" name="tel">
+                            
+                            <label>Email:</label>
+                            <input type="email" id="emalId" placeholder="@Email" required="required" name="email">
+
+                            <button>Enviar</button>
+                        </fieldset>
+                        
+                    </from>
+
+            <!-- <div class="container" contenteditable="true">
+                    <p>saldo poupança</p></div>-->   
         </section>
-        <section>
+        <section class="paragr">
+
+            <h3>Documentação</h3>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                Lorem, ipsum <strong>dolor sit amet consectetur adipisicing elit.</strong> Accusamus
                 tenetur obcaecati officiis laboriosam distinctio nostrum saepe iure 
                 assumenda! Delectus iste aliquid qui nobis perferendis tempore maiores
                 excepturi numquam voluptatum ad!
             </p>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                Lorem, ipsum dolor sit amet consectetur <a href="">adipisicing</a>. Accusamus
                 tenetur obcaecati officiis laboriosam distinctio nostrum saepe iure 
                 assumenda! Delectus iste aliquid qui nobis perferendis tempore maiores
                 excepturi numquam voluptatum ad!
